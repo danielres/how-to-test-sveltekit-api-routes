@@ -1,5 +1,5 @@
 {
-  "name": "sveltekit-vitest-test-server",
+  "name": "how-to-test-sveltekit-api-routes",
   "version": "0.0.1",
   "private": true,
   "scripts": {
