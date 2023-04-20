@@ -1,7 +1,8 @@
 import { $fetch, setup } from 'vite-test-utils'
 import { describe, expect, test } from 'vitest'
 
-import './+server' // Trick so vitest reruns this test +server.ts changes
+// Trick so vitest knows to re-run the tests below when +server.ts changes:
+import './+server'
 
 await setup({
   server: true,
